@@ -1,16 +1,14 @@
-# React + Vite
+Receipt Management & Verification SaaS
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A robust, production-ready full-stack receipt management and verification platform built for retail businesses. The system features a secure admin/staff portal for generating and managing itemized sales receipts, automated credential dispatching via transactional email, and a public glassmorphism verification portal allowing customers to securely lookup, view, and download or print digital PDF copies of their receipts.
 
-Currently, two official plugins are available:
+🚀 Key Features
+Role-Based Authentication & User Management: Secure login for administrators and staff, plus admin-only user registration with auto-generated secure passwords dispatched via email.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+Password Recovery Flow: Complete Forgot Password and Change Password modules.
 
-## React Compiler
+Public Customer Verification Portal: A glassmorphic lookup interface optimized for searching purchase records via unique reference codes (REF-XXXXXXXX).
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Interactive Receipt Details & PDF Export: Clean, printable receipt layouts featuring itemized tables, financial breakdowns (subtotal, shipping, totals, outstanding balances), and one-click PDF generation via html2pdf.js.
 
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Design System Integration: Styled with strict adherence to custom CSS variables, a modern slate-blue and emerald-green brand palette (#16a34a), and responsive layouts.
