@@ -1,0 +1,99 @@
+.add-receipt-container {
+    padding: 20px;
+    
+}
+.form-container {
+    border: 1px solid rgba(51, 65, 85, 0.3);
+    border-radius: 10px;
+    padding: 20px;
+    background-color: white;
+}
+.add-receipt-container .header {
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+
+.add-receipt-container .header h3 {
+    font-size: 1.5rem;
+}
+.mb {
+    margin-bottom: 0.75rem;
+}
+.grid-3 {
+    display: grid;
+    /* grid-template-columns: 1fr 1fr 1fr; */
+    grid-template-columns: repeat(3, 1fr);
+    gap: 18px;
+}
+.grid-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    gap: 18px;
+}
+.add-receipt-container label {
+    font-weight: 500;
+    font-size: 0.94rem;
+    padding-block: 6px;
+    color: var(--nav-bg);
+}
+.add-receipt-container label,
+.add-receipt-container select,
+.add-receipt-container textarea,
+.add-receipt-container input {
+    display: block;
+    width: 100%;
+}
+.add-receipt-container input,
+.add-receipt-container select,
+.add-receipt-container .profit-text,
+.add-receipt-container textarea {
+    font-size: 0.85rem;
+    letter-spacing: 0.8px;
+    padding: 12px;
+    padding-block: 10px;
+    border-radius: 10px;
+    outline: none;
+    border: var(--light-border);
+}
+
+.add-receipt-container .profit-text, 
+.add-receipt-container .icon-div {
+    border: none;
+    padding-inline: none;
+    color: var(--primary-green);
+    font-weight: 500;
+    font-size: 1rem;
+    letter-spacing: 2px;
+}
+.add-receipt-container .icon-div {
+    background-color: #fee2e2;
+    display: inline-block;
+    border-radius: 8px;
+    padding: 5px;
+    padding-inline: 10px;
+}
+.add-receipt-container .add-item-btn {
+    color: #0f172a;
+    background-color: #f1f5f9;
+    /* border-color: var(--border-color); */
+    display: flex;
+    gap: 5px;
+    border: var(--light-border);
+    padding: 12px;
+    padding-inline: 15px;
+    border-radius: 10px;
+}
+.add-receipt-container .add-item-btn p {
+    font-weight: bold;
+    color: #57595f;
+}
+
+/* items */
+.grid-items {
+    display: grid;
+    grid-template-columns: 3fr 2fr 2fr 1fr 1fr 1fr;
+    gap: 15px;
+
+}
